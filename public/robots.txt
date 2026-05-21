@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://caeletricarj.com.br/sitemap.xml
