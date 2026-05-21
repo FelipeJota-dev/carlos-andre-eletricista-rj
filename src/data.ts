@@ -2,7 +2,7 @@ import { HardHat, Zap, ShieldCheck, Home, Factory, Settings, Building2, BatteryC
 
 export const BUSINESS_INFO = {
   name: 'C.A Elétrica-RJ',
-  owner: 'Carlos André',
+  owner: 'André Oliveira',
   phone: '5521981826212',
   displayPhone: '(21) 98182-6212',
   address: 'R. Miguel Cervantes, 132 - Cachambi, Rio de Janeiro - RJ, 20780-370',
@@ -17,7 +17,7 @@ export const BUSINESS_INFO = {
   reviewsCount: 5,
   openingHours: 'Aberto · Fecha 18:00',
   whatsappMessage: 'Olá, vim pelo site da C.A Elétrica-RJ e gostaria de solicitar um orçamento.',
-  areas: ['Cachambi', 'Zona Norte do Rio de Janeiro', 'Zona Sul', 'Zona Oeste', 'Niterói e região']
+  areas: ['Grande Rio', 'Baixada Fluminense', 'Cachambi', 'Zona Norte', 'Zona Sul', 'Zona Oeste', 'Niterói', 'São Gonçalo', 'Nova Iguaçu', 'Duque de Caxias']
 };
 
 export const SERVICES = [

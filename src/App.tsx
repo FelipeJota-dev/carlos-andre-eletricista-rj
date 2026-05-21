@@ -5,6 +5,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Services } from './components/Services';
 import { Gallery } from './components/Gallery';
+import { InstagramCTA } from './components/InstagramCTA';
 import { Videos } from './components/Videos';
 import { Testimonials } from './components/Testimonials';
 import { LocalSEO } from './components/LocalSEO';
@@ -25,6 +26,7 @@ export default function App() {
           <Services />
           <div className="h-px w-full bg-gradient-to-r from-transparent via-gray-200 to-transparent my-12" />
           <Gallery />
+          <InstagramCTA />
           <Videos />
           <Testimonials />
           <LocalSEO />

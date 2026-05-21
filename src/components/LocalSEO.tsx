@@ -14,30 +14,27 @@ export const LocalSEO = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl sm:text-4xl font-extrabold text-[#111111] mb-6 tracking-tight">
-                Atendimento elétrico em Cachambi, Zona Norte do Rio e região
+                Atendimento elétrico em todo o Grande Rio
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Chegamos rapidamente até você. Nossa base estratégica permite atendimento ágil para emergências e projetos programados em toda a cidade.
+                Chegamos rapidamente até você. Nossa base em Cachambi permite atendimento ágil para emergências e projetos elétricos em toda a capital e municípios do estado do Rio de Janeiro.
               </p>
 
-              <div className="grid grid-cols-2 gap-y-4 gap-x-8 mb-8">
+              <div className="grid grid-cols-2 gap-y-4 gap-x-4 sm:gap-x-8 mb-8">
                 <div className="space-y-4">
-                  <h4 className="font-bold text-[#0B3D91] border-b border-gray-100 pb-2">Zona Norte</h4>
+                  <h4 className="font-bold text-[#0B3D91] border-b border-gray-100 pb-2">Rio de Janeiro</h4>
                   <ul className="space-y-2">
-                    <li className="flex items-center gap-2 text-gray-700"><Navigation className="w-3 h-3 text-[#6AB317]" /> Cachambi</li>
-                    <li className="flex items-center gap-2 text-gray-700"><Navigation className="w-3 h-3 text-[#6AB317]" /> Méier</li>
-                    <li className="flex items-center gap-2 text-gray-700"><Navigation className="w-3 h-3 text-[#6AB317]" /> Engenho de Dentro</li>
-                    <li className="flex items-center gap-2 text-gray-700"><Navigation className="w-3 h-3 text-[#6AB317]" /> Todos os Santos</li>
-                    <li className="flex items-center gap-2 text-gray-700"><Navigation className="w-3 h-3 text-[#6AB317]" /> Del Castilho</li>
-                    <li className="flex items-center gap-2 text-gray-700"><Navigation className="w-3 h-3 text-[#6AB317]" /> Maria da Graça</li>
+                    <li className="flex items-center gap-2 text-gray-700 text-sm sm:text-base"><Navigation className="w-3 h-3 text-[#6AB317] shrink-0" /> Cachambi e Zona Norte</li>
+                    <li className="flex items-center gap-2 text-gray-700 text-sm sm:text-base"><Navigation className="w-3 h-3 text-[#6AB317] shrink-0" /> Zona Sul e Centro</li>
+                    <li className="flex items-center gap-2 text-gray-700 text-sm sm:text-base"><Navigation className="w-3 h-3 text-[#6AB317] shrink-0" /> Barra e Zona Oeste</li>
                   </ul>
                 </div>
                 <div className="space-y-4">
-                  <h4 className="font-bold text-[#0B3D91] border-b border-gray-100 pb-2">Outras Regiões</h4>
+                  <h4 className="font-bold text-[#0B3D91] border-b border-gray-100 pb-2">Região Metropolitana</h4>
                   <ul className="space-y-2">
-                    <li className="flex items-center gap-2 text-gray-700"><Navigation className="w-3 h-3 text-[#6AB317]" /> Zona Sul</li>
-                    <li className="flex items-center gap-2 text-gray-700"><Navigation className="w-3 h-3 text-[#6AB317]" /> Zona Oeste</li>
-                    <li className="flex items-center gap-2 text-gray-700"><Navigation className="w-3 h-3 text-[#6AB317]" /> Niterói e região</li>
+                    <li className="flex items-center gap-2 text-gray-700 text-sm sm:text-base"><Navigation className="w-3 h-3 text-[#6AB317] shrink-0" /> Baixada Fluminense</li>
+                    <li className="flex items-center gap-2 text-gray-700 text-sm sm:text-base"><Navigation className="w-3 h-3 text-[#6AB317] shrink-0" /> Niterói e São Gonçalo</li>
+                    <li className="flex items-center gap-2 text-gray-700 text-sm sm:text-base"><Navigation className="w-3 h-3 text-[#6AB317] shrink-0" /> Nova Iguaçu e Caxias</li>
                   </ul>
                 </div>
               </div>

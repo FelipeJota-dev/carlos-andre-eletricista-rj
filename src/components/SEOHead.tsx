@@ -106,10 +106,16 @@ export const SEOHead = () => {
       "name": BUSINESS_INFO.name,
       "@id": `${currentUrl}/#electrician`
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Rio de Janeiro"
-    },
+    "areaServed": [
+      {
+        "@type": "State",
+        "name": "Rio de Janeiro"
+      },
+      {
+        "@type": "City",
+        "name": "Rio de Janeiro"
+      }
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Serviços Elétricos",
@@ -127,20 +133,20 @@ export const SEOHead = () => {
 
   return (
     <Helmet>
-      <title>{`${BUSINESS_INFO.name} | Eletricista em Cachambi e RJ`}</title>
-      <meta name="description" content="Instalações, reformas, manutenções e projetos elétricos residenciais e comerciais no Cachambi, Zona Norte do Rio de Janeiro. Segurança, Qualidade e Confiança." />
+      <title>{`${BUSINESS_INFO.name} | Eletricista no Rio de Janeiro e Grande Rio`}</title>
+      <meta name="description" content="Eletricista residencial e comercial no Cachambi, Rio de Janeiro e Grande Rio. Instalações, reformas elétricas, aumento de carga e projetos com segurança e 20 anos de experiência." />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={currentUrl} />
 
-      <meta property="og:title" content={`${BUSINESS_INFO.name} | Eletricista no Rio de Janeiro`} />
-      <meta property="og:description" content="Reforma elétrica residencial, comercial e industrial. Aumento de carga, montagem de painéis, projetos elétricos e automação. Atendimento técnico e seguro." />
+      <meta property="og:title" content={`${BUSINESS_INFO.name} | Eletricista no Rio de Janeiro e Grande Rio`} />
+      <meta property="og:description" content="Eletricista residencial e comercial no Rio de Janeiro e Grande Rio. Instalações, reformas elétricas, aumento de carga e projetos com segurança e 20 anos de experiência." />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={currentUrl} />
       <meta property="og:image" content="https://i.imgur.com/FE1xHtA.jpeg" />
       
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={`${BUSINESS_INFO.name} | Eletricista no Rio de Janeiro`} />
-      <meta name="twitter:description" content="Reforma elétrica residencial, comercial e industrial. Aumento de carga, montagem de painéis, projetos elétricos e automação. Atendimento técnico e seguro." />
+      <meta name="twitter:title" content={`${BUSINESS_INFO.name} | Eletricista no Rio de Janeiro e Grande Rio`} />
+      <meta name="twitter:description" content="Eletricista residencial e comercial no Rio de Janeiro e Grande Rio. Instalações, reformas elétricas, aumento de carga e projetos com segurança e 20 anos de experiência." />
       <meta name="twitter:image" content="https://i.imgur.com/FE1xHtA.jpeg" />
 
       <script type="application/ld+json">

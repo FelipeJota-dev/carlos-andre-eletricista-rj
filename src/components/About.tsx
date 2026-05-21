@@ -16,13 +16,13 @@ export const About = () => {
             >
               <img 
                 src="https://i.imgur.com/2cKePTa.jpeg" 
-                alt="Carlos André - Proprietário da C.A Elétrica-RJ" 
+                alt="André Oliveira - Proprietário da C.A Elétrica-RJ" 
                 className="w-full aspect-[4/5] object-cover"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-6 left-6 right-6">
-                <h3 className="text-white font-bold text-2xl">Carlos André</h3>
+                <h3 className="text-white font-bold text-2xl">André Oliveira</h3>
                 <p className="text-[#6AB317] font-medium">Especialista Técnico / Proprietário</p>
               </div>
             </motion.div>
@@ -42,18 +42,18 @@ export const About = () => {
               
               <div className="space-y-4 text-lg text-gray-600 mb-8">
                 <p>
-                  Carlos André é o responsável pela <strong>C.A Elétrica-RJ</strong>, atuando com serviços elétricos residenciais, comerciais e industriais no Rio de Janeiro. 
+                  André Oliveira atua há mais de 20 anos no setor elétrico, sendo o responsável técnico pela <strong>C.A Elétrica-RJ</strong>. Realiza instalações, reformas e projetos com foco em segurança, qualidade e responsabilidade direcionados para todo o Grande Rio.
                 </p>
                 <p>
-                  O trabalho é focado em segurança, organização, diagnóstico correto e execução profissional, sempre buscando entregar soluções duráveis e bem planejadas.
+                  O trabalho é focado em segurança, organização, diagnóstico correto e execução profissional, sempre buscando entregar soluções duráveis e construindo extrema confiança com cada cliente.
                 </p>
               </div>
 
               <ul className="space-y-4 mb-8">
                 {[
-                  'Atendimento em Cachambi e região',
-                  'Experiência técnica avançada',
-                  'Forte compromisso com segurança',
+                  'Atendimento em todo o Grande Rio e Baixada',
+                  'Mais de 20 anos de experiência técnica',
+                  'Forte compromisso com segurança e normas',
                   'Cuidado extremo com o imóvel do cliente',
                   'Serviço limpo, organizado e transparente'
                 ].map((item, idx) => (
