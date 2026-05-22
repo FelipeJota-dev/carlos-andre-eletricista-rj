@@ -8,7 +8,7 @@ export const SEOHead = () => {
     "@context": "https://schema.org",
     "@type": "Electrician",
     "name": BUSINESS_INFO.name,
-    "image": "https://i.imgur.com/IlCv5mB.png",
+    "image": "https://i.imgur.com/kwNSUez.png",
     "@id": `${currentUrl}/#electrician`,
     "url": currentUrl,
     "telephone": BUSINESS_INFO.displayPhone,

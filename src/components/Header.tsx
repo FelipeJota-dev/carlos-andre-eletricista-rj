@@ -18,21 +18,14 @@ export const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b shadow-sm border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <a href="#inicio" className="flex items-center gap-3 group">
+        <a href="#inicio" className="flex items-center group">
           <img 
-            src="https://i.imgur.com/IlCv5mB.png" 
+            src="https://i.imgur.com/kwNSUez.png" 
             alt="C.A Elétrica-RJ Logo" 
-            className="w-12 h-12 object-contain"
+            className="h-10 sm:h-12 w-auto object-contain"
             fetchPriority="high"
             decoding="sync"
           />
-          <div className="flex flex-col">
-            <span className="text-xl font-bold tracking-tight">
-              <span className="text-[#6AB317]">C.A</span>{' '}
-              <span className="text-[#0B3D91]">Elétrica</span>
-            </span>
-            <span className="text-[10px] uppercase font-semibold text-gray-500 tracking-wider">Instalações & Projetos</span>
-          </div>
         </a>
 
         <nav className="hidden lg:flex items-center gap-8">

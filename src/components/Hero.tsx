@@ -31,8 +31,8 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#111111] leading-tight tracking-tight mb-6"
           >
-            Eletricista em Cachambi <br className="hidden sm:block"/>
-            e Zona Norte do Rio com <span className="text-gradient">segurança, qualidade e confiança</span>
+            Eletricista na Zona Norte <br className="hidden sm:block"/>
+            e Zona Sul do Rio de Janeiro com <span className="text-gradient">segurança e qualidade</span>
           </motion.h1>
 
           <motion.p 

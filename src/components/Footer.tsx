@@ -11,16 +11,12 @@ export const Footer = () => {
           
           {/* Brand */}
           <div className="lg:col-span-1 border-r-0 lg:border-r border-gray-800 pr-0 lg:pr-8">
-            <div className="flex items-center gap-3 mb-6 bg-white w-fit p-3 rounded-xl">
+            <div className="flex items-center mb-6 bg-white w-fit px-4 py-2 rounded-xl">
               <img 
-                src="https://i.imgur.com/IlCv5mB.png" 
+                src="https://i.imgur.com/kwNSUez.png" 
                 alt="C.A Elétrica-RJ Logo" 
-                className="w-10 h-10 object-contain"
+                className="h-10 w-auto object-contain"
               />
-              <span className="text-xl font-bold tracking-tight">
-                <span className="text-[#6AB317]">C.A</span>{' '}
-                <span className="text-[#0B3D91]">Elétrica</span>
-              </span>
             </div>
             <p className="text-gray-400 mb-6 text-sm">
               Eletricista em Cachambi e Rio de Janeiro. Reformas, aumento de carga, painéis e projetos. Segurança em primeiro lugar.
