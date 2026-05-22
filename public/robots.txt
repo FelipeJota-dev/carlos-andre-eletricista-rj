@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://caeletricarj.com.br/sitemap.xml
+Sitemap: https://www.carlosandreeletrica.com.br/sitemap.xml

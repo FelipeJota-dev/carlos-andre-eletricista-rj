@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { BUSINESS_INFO, FAQS, SERVICES, REVIEWS } from '../data';
 
 export const SEOHead = () => {
-  const currentUrl = 'https://caeletricarj.com.br'; // Using placeholder for custom domain
+  const currentUrl = 'https://www.carlosandreeletrica.com.br'; // Using placeholder for custom domain
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
